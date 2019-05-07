@@ -1,4 +1,5 @@
 language: rust
+dist: xenial
 install:
   - rustup update
   - rustup default nightly
