@@ -8,6 +8,7 @@ script:
 - cargo build --manifest-path razorback_boilerplate/processor/Cargo.toml --target
   wasm32-unknown-unknown --release
 deploy:
+  provider: cargo
   token:
     secure: RwUQFXsv+1hAS7kvay7dVbWCzOs6yjAimxlyZ/h+CR2rMxFByxSufL3DKdDjHKeBnnbhwwET7OUnwZvctxGbkoEQ+3tKLtYBv5kt7Vixu9T7p4QNSNso+c6pEH7lKoIbD12AHijz+qtYlt42aDGi3mq6CYmm1mQLhHhkEQpsfDl/wcOuwHclGM1i2wjVOCd2WBpeHFRNIRjMZwe2yQyuAO4m+sf7DYq5j6jLiq9TRDkrpoQw6/keslbvEsiuN7RqBDM+cjntbjYXAC4n1KFooUQ/Nig3or5TdLw396rGzT29+BPZ3372qhrdO7kkpzOlxrewdnO3G9GVrzNymK9Xt8HToJpqI1QoAbjAs3BL1wNZvh3klYUzuc4LfxD0GvLO7UVOIbPE73aFg8le0/H+ZEVg7yJxLMzzbtBnAeFezQcUqp/loQGQA5mayW9Wjycqi2uhi4N3NnnojJCrxLHQ+1IYi+urwFi51AV942JjYMspiw77dY/c65DIMfXSPslg3KJBi621JJuV+fznPIaLwa+a+gSA91Qbqsq8MkQJLIRUpOtIPDIoGoqweksvrHxfGn6OAIgD1EkuXzjPy3ZE2pvI10mD5/2YtNT8NwefF5RviTSS4BsosmDo+KVd2BDdf34m1zbieS4mP4qKZHUjKjN/h5ypiODDa3GW7PtPTws=
     on:
